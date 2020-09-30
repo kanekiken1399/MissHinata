@@ -1,4 +1,4 @@
-#  [@MissHinata_Bot](https://telegram.dog/MissHinata_Bot)
+#  [MissHinata](https://telegram.dog/MissHinata_Bot)
 > with 
 
 
