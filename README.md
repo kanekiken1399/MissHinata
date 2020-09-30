@@ -1,4 +1,4 @@
-#  @MissHinata_Bot
+#  [@MissHinata_Bot](t.me/misshinata_bot)
 > with 
 
 
