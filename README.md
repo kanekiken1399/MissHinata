@@ -1,4 +1,4 @@
-# MissHinataBot // @MissHinata_Bot
+#  @MissHinata_Bot
 > with 
 
 
