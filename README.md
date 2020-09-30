@@ -2,7 +2,7 @@
 > with 
 
 
-Modular HunterxHunter themed Telegram Bot for managing your group with additional features.
+Modular NATURO Themed Telegram Bot for managing your group with additional features.
 
 [![Hinata](https://telegra.ph/file/d109f65ea011333525990.jpg)](https://telegram.dog/zoldycktmbot) 
 
