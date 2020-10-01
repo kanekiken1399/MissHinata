@@ -193,13 +193,13 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Hinata to your group",
+                            text="⬆️ Add Hinata To Your Group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="🚑 Support Group",
+                             text="🚨 Support Group",
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
                              text="🧾 Getting Started Guide",
@@ -208,7 +208,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="❗ HELP ❗",
-                             url="https://t./OnePunchUpdates/29")
+                             url="callback_data="help_back")
                      ]]))
     else:
         update.effective_message.reply_text(
