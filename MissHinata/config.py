@@ -24,7 +24,7 @@ class Config(object):
 
     #RECOMMENDED
 
-    SQLALCHEMY_DATABASE_URI = 'postgres://vofofgff:4h-wAcfPQl6rxYSs9XWQ37rJh3P3qehb@lallah.db.elephantsql.com:5432/vofofgff'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
     MESSAGE_DUMP = -1001253661229  # needed to make sure 'save from' messages persist
     GBAN_LOGS = -1001190806654
     LOAD = []
