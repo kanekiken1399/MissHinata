@@ -208,7 +208,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="❗ HELP ❗",
-                             url=callback_data="help_back")
+                             callback_data="help_back")
                      ]]))
     else:
         update.effective_message.reply_text(
