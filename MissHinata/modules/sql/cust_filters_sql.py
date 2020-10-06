@@ -316,10 +316,7 @@ def __load_chat_filters():
         for x in all_filters:
             CHAT_FILTERS[x.chat_id] += [x.keyword]
 
-        CHAT_FILTERS = {
-            x: sorted(set(y), key=lambda i: (-len(i), i))
-            for x, y in CHAT_FILTERS.items()
-        }
+        CHAT_FILTERS = {x: sorted(set(y), key=lambda i: (-len(i), i)) for x, y in CHAT_FILTERS.items()}
 
     finally:
         SESSION.close()
