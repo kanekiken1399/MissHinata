@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/MissHinata
-RUN git clone -b shiken https://github.com/AnimeKaizoku/MissHinata /root/MissHinata
+RUN git clone -b Lilly https://github.com/imDivu/MissHinata /root/MissHinata
 WORKDIR /root/MissHinata
 
 #Copy config file to /root/MissHinata/MissHinata
