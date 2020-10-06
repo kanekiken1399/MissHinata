@@ -4,11 +4,11 @@ on:
 
   push:
 
-    branches: [ master ]
+    branches: [ Lilly ]
 
   pull_request:
 
-    branches: [ master ]
+    branches: [ Lilly ]
 
 jobs:
 
@@ -34,4 +34,4 @@ jobs:
 
           buildoptions: --force-rm --compress --no-cache --squash
 
-          tags: "master"
+          tags: "Lilly"
